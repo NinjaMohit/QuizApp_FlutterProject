@@ -77,7 +77,7 @@
 <h1>UI for Web (chrome)</h1>
 <h3>1️⃣ Start the quiz with a captivating image :
 </h3>
-<img src="https://github.com/NinjaMohit/QuizApp_FlutterProject/blob/main/quizapp_flutter/lib/quizappimg/img1.png?raw=true" height=500 width=1000>
+<img src="https://github.com/NinjaMohit/QuizApp_FlutterProject/blob/main/quizapp_flutter/lib/quizappimg/img1.png?raw=true">
 <br>
 <h3>3️⃣ Get instant feedback with color-coded buttons :</h3>
 <img src="https://github.com/NinjaMohit/QuizApp_FlutterProject/blob/main/quizapp_flutter/lib/quizappimg/img2.png?raw=true">
