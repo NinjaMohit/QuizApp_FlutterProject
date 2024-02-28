@@ -27,7 +27,7 @@ class _QuizAppState extends State {
       answerIndex: 0,
     ),
     const SingleQuestionIndex(
-      question: "Time Complexity Binary Search ?",
+      question: "Time Complexity of Binary Search ?",
       options: ["O(nlogn)", "O(logn)", "O(n)", "O(1)"],
       answerIndex: 1,
     ),
@@ -37,7 +37,7 @@ class _QuizAppState extends State {
       answerIndex: 3,
     ),
     const SingleQuestionIndex(
-      question: "Time Complexity of Quick Sort ?",
+      question: "Time Complexity of Quick Sort?",
       options: ["O(logn)", "O(nlogn)", "O(1)", "O(n*n)"],
       answerIndex: 1,
     ),
@@ -239,9 +239,10 @@ class _QuizAppState extends State {
               ],
             ),
             Container(
-              margin: const EdgeInsets.all(20),
+              margin: const EdgeInsets.only(
+                  top: 20, left: 16, right: 16, bottom: 22),
               padding: const EdgeInsets.only(
-                  top: 30, right: 10, bottom: 10, left: 10),
+                  top: 25, right: 10, bottom: 1, left: 10),
               height: 420,
               width: 400,
               decoration: BoxDecoration(
@@ -253,11 +254,11 @@ class _QuizAppState extends State {
                 children: [
                   SizedBox(
                     width: 380,
-                    height: 50,
+                    height: 60,
                     child: Text(
                       " ${allQuestions[questionIndex].question}",
                       style: const TextStyle(
-                        fontSize: 22,
+                        fontSize: 21,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
